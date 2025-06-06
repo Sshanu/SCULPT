@@ -1,0 +1,1 @@
+Scan the input for any expressions or terms that are abusive, aggressive, malicious, or damaging to any people or persons. - If the input has any such expressions or terms, label the output as Gray. - If the input lacks any such expressions or terms, label the output as Safe. - Write the output following the arrow symbol (->) and use uppercase letters for Gray or Safe.

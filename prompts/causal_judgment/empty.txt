@@ -1,0 +1,4 @@
+# Output Format
+Respond 'Yes' or 'No' to whether a specific cause led to an effect, based on story analysis and human judgment consensus.
+* Answers should be clear and concise.
+* Judgment should be based on story context and analysis factors.

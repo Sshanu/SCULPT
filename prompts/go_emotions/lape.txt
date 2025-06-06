@@ -1,0 +1,163 @@
+# Emotion Labeling
+
+## Assigning Emotions
+For a given text, identify the correct emotion label(s). Each label has a specific ID and name.
+
+Examples: {I just say I don't know shit. I'm just a ape man on a rock., They stole my joke, damn them!}
+
+* Annoyance
+Examples: {I just say I don't know shit. I'm just a ape man on a rock., They stole my joke, damn them!}
+
+* Admiration
+Examples: {I LOVED having him; every time [NAME] takes that 18 footer I expect to be automatic only to be very disappointed., What a legend}
+
+* Neutral
+Examples: {As in when totalitarians show up in solidarity with those "normal" people? If you're attracting ANTIFA, you're not normal., r/forhonor leaking again?}
+
+* Curiosity
+Examples: {r/forhonor leaking again?, Do you have any tinder picture or bio advice? I have no selfies or mirror pics but still not doing very well}
+
+* Excitement
+Examples: {I can't wait to see what us skilled workers get. Thanks government for telling businesses how to run and wrangle unskilled workers with no ambition.}
+
+* Gratitude
+Examples: {I can't wait to see what us skilled workers get. Thanks government for telling businesses how to run and wrangle unskilled workers with no ambition., > If it concerns you a lot, after 3 times you can actually just register another card. Good idea.}
+
+* Desire
+Examples: {Lord [NAME] called, he wants his style back}
+
+* Approval
+Examples: {I believe that this may be meant for the person above me, for I have moved into the realm of monetized bananas., yeah I agree w you, just annoying that the limit is so small}
+
+* Amusement
+Examples: {LOOOOOL, Just exposing the man! Also happy cake day}
+
+* Caring
+Examples: {She does NOT love you. Try to ask yourself why you are accepting this treatment.}
+
+* Disapproval
+Examples: {She does NOT love you. Try to ask yourself why you are accepting this treatment., Have nobody thought of the giant tech corporation selling overpriced, inferior products to sheep customers? That's odd.}
+
+* Remorse
+Examples: {I'm sorry your trust has been that badly broken., I'm really sorry for your loss friend. I hope everything is okay on your end too.}
+
+* Optimism
+Examples: {I believe that this may be meant for the person above me, for I have moved into the realm of monetized bananas., I'm really sorry for your loss friend. I hope everything is okay on your end too.}
+
+* Surprise
+Examples: {I saw that comment and wondered if someone was going to post it here. I almost feel bad. Maybe they’re lonely.}
+
+* Realization
+Examples: {Not shocked by the subs [NAME] is active in...}
+
+* Confusion
+Examples: {Wouldn't it be easier to find 10% then multiply by 2?}
+
+# Labeling Criteria
+* If the text shows a positive emotion towards someone or something, assign it as Admiration.
+* If the text shows a negative emotion towards someone or something, assign it as Annoyance.
+* If the text is a neutral statement or question, assign it as Neutral.
+* If the text shows curiosity or asks a question, assign it as Curiosity.
+* If the text shows excitement or enthusiasm, assign it as Excitement.
+* If the text shows gratitude or thankfulness, assign it as Gratitude.
+* If the text shows a desire or wish, assign it as Desire.
+* If the text shows approval or agreement, assign it as Approval.
+* If the text shows amusement or humor, assign it as Amusement.
+* If the text shows care or concern, assign it as Caring.
+* If the text shows disapproval or criticism, assign it as Disapproval.
+* If the text shows remorse or apology, assign it as Remorse.
+* If the text shows optimism or hope, assign it as Optimism.
+* If the text shows surprise or astonishment, assign it as Surprise.
+* If the text shows realization or understanding, assign it as Realization.
+* If the text shows confusion or lack of understanding, assign it as Confusion.
+
+# Example Outputs
+* Input: I just say I don't know shit. I'm just a ape man on a rock.
+  Output: Label id: 3 Label names: Annoyance
+
+* Input: I LOVED having him; every time [NAME] takes that 18 footer I expect to be automatic only to be very disappointed.
+  Output: Label id: 0 Label names: Admiration
+
+* Input: As in when totalitarians show up in solidarity with those "normal" people? If you're attracting ANTIFA, you're not normal.
+  Output: Label id: 27 Label names: Neutral
+
+* Input: r/forhonor leaking again?
+  Output: Label id: 7 Label names: Curiosity
+
+* Input: I can't wait to see what us skilled workers get. Thanks government for telling businesses how to run and wrangle unskilled workers with no ambition.
+  Output: Label id: 13,15 Label names: Excitement,Gratitude
+
+* Input: What a legend
+  Output: Label id: 0 Label names: Admiration
+
+* Input: > If it concerns you a lot, after 3 times you can actually just register another card. Good idea.
+  Output: Label id: 15 Label names: Gratitude
+
+* Input: Lord [NAME] called, he wants his style back
+  Output: Label id: 8 Label names: Desire
+
+* Input: I believe that this may be meant for the person above me, for I have moved into the realm of monetized bananas.
+  Output: Label id: 4,20 Label names: Approval,Optimism
+
+* Input: LOOOOOOL, Just exposing the man! Also happy cake day
+  Output: Label id: 1 Label names: Amusement
+
+* Input: Just speak with a Sheffield accent lmao
+  Output: Label id: 27 Label names: Neutral
+
+* Input: You’re a life saver, wish you a blessed new year
+  Output: Label id: 0 Label names: Admiration
+
+* Input: Ours came today too :). We got 22 hbu?
+  Output: Label id: 27 Label names: Neutral
+
+* Input: She does NOT love you. Try to ask yourself why you are accepting this treatment.
+  Output: Label id: 5,10 Label names: Caring,Disapproval
+
+* Input: They stole my joke, damn them!
+  Output: Label id: 3 Label names: Annoyance
+
+* Input: Hes looking for a handout of 3 free meals a day, education and skill training and a roof over his head. Jail, it works.
+  Output: Label id: 27 Label names: Neutral
+
+* Input: Do you have any tinder picture or bio advice? I have no selfies or mirror pics but still not doing very well
+  Output: Label id: 7 Label names: Curiosity
+
+* Input: yeah I agree w you, just annoying that the limit is so small
+  Output: Label id: 4 Label names: Approval
+
+* Input: I'm sorry your trust has been that badly broken.
+  Output: Label id: 24 Label names: Remorse
+
+* Input: Wouldn't it be easier to find 10% then multiply by 2?
+  Output: Label id: 6,7 Label names: Confusion,Curiosity
+
+* Input: You are. It's the cat. She looked away right when you turned the camera over towards her. She'd deliberately trying to mislead you.
+  Output: Label id: 27 Label names: Neutral
+
+* Input: ASK AND YOU SHALL RECEIVE
+  Output: Label id: 27 Label names: Neutral
+
+* Input: Fucking love [NAME]. [NAME] best couple don't @ me
+  Output: Label id: 0 Label names: Admiration
+
+* Input: You mean hormonal differences?
+  Output: Label id: 27 Label names: Neutral
+
+* Input: Oh sweet I get [NAME] powers
+  Output: Label id: 27 Label names: Neutral
+
+* Input: I saw that comment and wondered if someone was going to post it here. I almost feel bad. Maybe they’re lonely.
+  Output: Label id: 26 Label names: Surprise
+
+* Input: K... I guess I'll just take your work for it.
+  Output: Label id: 4 Label names: Approval
+
+* Input: Not shocked by the subs [NAME] is active in...
+  Output: Label id: 22,27 Label names: Realization,Neutral
+
+* Input: Have nobody thought of the giant tech corporation selling overpriced, inferior products to sheep customers? That's odd.
+  Output: Label id: 10,27 Label names: Disapproval,Neutral
+
+* Input: I'm really sorry for your loss friend. I hope everything is okay on your end too.
+  Output: Label id: 20,24 Label names: Optimism,Remorse

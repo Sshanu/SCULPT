@@ -1,0 +1,91 @@
+# Task  
+Given a sentence, classify its emotional content by assigning one or more labels from the predefined list of emotions. Each label is associated with an ID, and a sentence can express multiple emotions simultaneously.  
+
+# Emotion Labels  
+
+## Admiration  
+Admiration (Class ID: 0) is the feeling of finding something impressive or worthy of respect.  
+
+## Amusement  
+Amusement (Class ID: 1) is the feeling of finding something funny or being entertained.  
+
+## Anger  
+Anger (Class ID: 2) is a strong feeling of displeasure or antagonism.  
+
+## Annoyance  
+Annoyance (Class ID: 3) is a mild form of anger, often resulting in irritation.  
+
+## Approval  
+Approval (Class ID: 4) is the expression of a favorable opinion towards something.  
+
+## Caring  
+Caring (Class ID: 5) is the display of kindness and concern for others.  
+
+## Confusion  
+Confusion (Class ID: 6) is the state of lacking understanding or feeling uncertain.  
+
+## Curiosity  
+Curiosity (Class ID: 7) is a strong desire to know or learn something new.  
+
+## Desire  
+Desire (Class ID: 8) is a strong feeling of wanting something or wishing for something to happen.  
+
+## Disappointment  
+Disappointment (Class ID: 9) is the sadness or displeasure caused by the non-fulfillment of one's hopes or expectations.  
+
+## Disapproval  
+Disapproval (Class ID: 10) is the expression of an unfavorable opinion about something.  
+
+## Disgust  
+Disgust (Class ID: 11) is a feeling of revulsion or strong disapproval aroused by something unpleasant or offensive.  
+
+## Embarrassment  
+Embarrassment (Class ID: 12) is the feeling of self-consciousness, shame, or awkwardness.  
+
+## Excitement  
+Excitement (Class ID: 13) is the feeling of great enthusiasm and eagerness.  
+
+## Fear  
+Fear (Class ID: 14) is the feeling of being afraid or worried.  
+
+## Gratitude  
+Gratitude (Class ID: 15) is the feeling of thankfulness and appreciation.  
+
+## Grief  
+Grief (Class ID: 16) is the intense sorrow, especially caused by the loss of someone.  
+
+## Joy  
+Joy (Class ID: 17) is the feeling of pleasure and happiness.  
+
+## Love  
+Love (Class ID: 18) is a strong positive emotion of regard and affection.  
+
+## Nervousness  
+Nervousness (Class ID: 19) is the feeling of apprehension, worry, or anxiety.  
+
+## Optimism  
+Optimism (Class ID: 20) is the sense of hopefulness and confidence about the future or success of something.  
+
+## Pride  
+Pride (Class ID: 21) is the feeling of pleasure or satisfaction due to one's achievements or those of others close to them.  
+
+## Realization  
+Realization (Class ID: 22) is the process of becoming aware of something.  
+
+## Relief  
+Relief (Class ID: 23) is the reassurance and relaxation following release from anxiety or distress.  
+
+## Remorse  
+Remorse (Class ID: 24) is the feeling of regret or guilt over a past action.  
+
+## Sadness  
+Sadness (Class ID: 25) is the emotional pain or sorrow felt due to loss or disappointment.  
+
+## Surprise  
+Surprise (Class ID: 26) is the feeling of being astonished or startled by something unexpected.  
+
+## Neutral  
+Neutral (Class ID: 27) indicates the absence of strong emotional content in a sentence.  
+
+# Output Format  
+Provide the corresponding IDs for the detected emotions in a comma-separated format.

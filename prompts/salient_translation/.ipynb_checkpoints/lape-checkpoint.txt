@@ -1,0 +1,35 @@
+# Translation Error Labelling
+
+## Identifying incorrect translations
+Given a source text and its translation, determine if the translation is incorrect. Assign one of the following labels to the translation based on the type of error:
+
+# Options
+(A) Modifiers or Adjectives
+(B) Numerical Values
+(C) Negation or Antonyms
+(D) Named Entities
+(E) Dropped Content
+(F) Facts
+
+Examples: 
+* Source: {Handkäse ist eine Standardsorte aus der Gruppe der Sauermilchkäse.}, Translation: {Hand cheese is a standard place in the group of cheeses.} -> Output: (a)
+* Source: {Der Melbourne Rectangular Stadium ist ein Rugby- und Fußballstadion in Melbourne, Australien.}, Translation: {Melbourne Rectangular Stadium is a multi-use stadium in Melbourne, Australia.} -> Output: (a)
+
+* Source: {Die etwa 100 Meter lange Rostocker Krämerstraße liegt im historischen Stadtkern und gehörte einst zur Mittelstadt.}, Translation: {The approximately 100-mile-long Rostocker Krämerstraße is located in the historic city centre and once belonged to the central city.} -> Output: (b)
+* Source: {Das Infanterie-Regiment „Prinz Carl“ (4. Großherzoglich Hessisches) Nr.}, Translation: {The Infantry Regiment ""Prince Carl"" (6th Grand Ducal Hessian) No.} -> Output: (b)
+
+* Source: {Die Liste öffentlicher Kunst in Güglingen zeigt die modernen und alten Kunstwerke, die in der Stadt Güglingen öffentlich zugänglich sind.}, Translation: {The list of public art in Güglingen shows the modern and old works of art that are never open to the public in the city of Güglingen.} -> Output: (c)
+* Source: {Mosasaurus ist eine Gattung der Mosasaurier, einer ausgestorbenen Familie großer Meeresreptilien aus der Zeit der Oberkreide.}, Translation: {Mosasaurus is a genus of mosasaurs, an living family of large marine reptiles from the Upper Cretaceous period.} -> Output: (c)
+
+* Source: {Die Liste der Kulturdenkmale der Stadt Altenburg umfasst alle Denkmalensembles, Bau- und Kunstdenkmale und Bodendenkmale der Stadt Altenburg sowie der Objekte bzw.}, Translation: {The list of cultural monuments of the city of Altavista includes all monument ensembles, building and art monuments and ground monuments of the city of Altavista as well as the objects and objects.} -> Output: (d)
+* Source: {Nordi Mukiele Mulere ist ein französischer Fußballspieler mit kongolesischen Wurzeln.}, Translation: {Nordi is a French footballer who plays as a midfielder.} -> Output: (d)
+
+* Source: {Die Bahnstrecke Appenweier–Strasbourg ist die Hauptbahn, die den französischen TGV-Bahnhof Strasbourg mit der deutschen Rheintalbahn bzw. der Neu- und Ausbaustrecke Karlsruhe–Basel verbindet.}, Translation: {The Appenweier–Strasbourg railway line is the main line connecting the French TGV station Strasbourg with the German Rhine Valley Railway.} -> Output: (e)
+* Source: {Mit einem Fieberthermometer kann man die Körpertemperatur eines Menschen messen und somit eventuelles Fieber diagnostizieren.}, Translation: {With a fever thermometer, you can measure a person's body temperature.} -> Output: (e)
+
+* Source: {Phil Morris ist ein US-amerikanischer Schauspieler.}, Translation: {Phil Morris is an American director.} -> Output: (f)
+* Source: {Diese Liste der Abgeordneten zum Österreichischen Nationalrat (XXVII.}, Translation: {This list of presidents of the Austrian National Council (XXVII)} -> Output: (f)
+
+# Additional Examples
+* Source: {Die Hauptstadt von Frankreich ist Paris.}, Translation: {The capital of France is Berlin.} -> Output: (c)
+* Source: {Der Eiffelturm ist 324 Meter hoch.}, Translation: {The Eiffel Tower is 324 feet tall.} -> Output: (b)

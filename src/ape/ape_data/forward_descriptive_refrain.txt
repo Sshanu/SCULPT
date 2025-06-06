@@ -1,0 +1,27 @@
+I gave a friend a detailed instruction in markdown format and {NumExamples} inputs. The instructions has the following markdown structure with proper white spaces-
+
+```
+# <Heading 1>
+<body>
+
+## <Heading 1.1>
+<body>
+Examples: {example 1}, {example 2}
+
+* <bullet point 1>
+* <bullet point 2>
+Examples: {example 1}, {example 2}, {example 3}
+* <bullet point 3>
+
+...
+
+# <Heading 2>
+* <bullet point 1>
+* <bullet point 2>
+...
+```
+
+
+
+The friend read the instruction and wrote an output for every one of the inputs. The instruction had several sections, each describing what output to generate for a given input. Each section also has examples to assist my friend. 
+Given the input-output pairs, generate an instruction which is the output. For each section, only keep the examples if they can fit in a limit of 15 words. If examples can span more words, write instructions to approach the example as bullet points. You have to maintain the structure of the instruction intact with added examples by keeping each input text in its own in curly brackets and each curly bracketed example separated by comma. Ensure that proper line separation is maintained for readability. Do not reproduce the tags like <body>, <bullet point 1> etc, those represent placeholder for relevant content in the instruction. Generate the output between the <INSTRUCT> and <ENDINSTRUCT> Tags.

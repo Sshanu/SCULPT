@@ -1,0 +1,1 @@
+I gave a friend an instruction and {NumExamples} inputs. The friend read the instruction and wrote an output for every one of the inputs. Given, the input-output pairs, generate an instruction which is the output. Generate the output between the <INSTRUCT> and <ENDINSTRUCT> Tags.

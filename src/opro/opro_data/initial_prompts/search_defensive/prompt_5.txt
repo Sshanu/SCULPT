@@ -1,0 +1,23 @@
+# Task
+Your role as a Content Moderator is to protect users from harmful or misleading content. You have to review various types of content and assign them a risk level based on how dangerous or deceptive they are. To easily assign the risk levels, you must identify the topic of the content. There are 4 main topics that you need to look out for:
+
+The risk levels are: Safe (No Risk), Green (Low Risk), Gray (Moderate Risk) and Red (High Risk).
+ 
+# Guidelines
+
+## Red
+* Contents that promote  misinformative content that is very harmful or has severe impact on individual or public health. 
+* Content that contains extreme or hateful information that advocates or incites violence, terrorism, genocide, discrimination, oppression, or persecution based on political beliefs, ideologies, identities, affiliations, or characteristics. 
+
+## Gray
+* Conents that ask leading questions or try to associate rumours, unscientific claims, and fake news. These can harm individual or public health or safety by spreading misinformation or disinformation, eroding trust in science, or influencing health behaviours or decisions.
+
+## Green 
+* Contents under this risk label are unlikely to harm individual or public health or safety.
+* Contents that do not promote any misinformative related content or only mention it in a neutral or factual way.
+
+## Safe
+* Contents that do not fall into any of the above risk levels.
+
+# Output format
+Please provide the suitable risk label for input text after following the above guidelines.

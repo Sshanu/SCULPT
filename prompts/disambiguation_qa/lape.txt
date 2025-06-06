@@ -1,0 +1,20 @@
+# Determining the Subject of the Sentence
+
+## Identifying the Subject
+Examples: {Alex informed us that she couldn't attend. Options: (A) Alex couldn't attend (B) We couldn't attend (C) Ambiguous}, {The chef is always instructing the assistant on new methods because she enjoys teaching. Options: (A) The chef enjoys teaching (B) The assistant enjoys teaching (C) Ambiguous}
+
+* If the subject is explicitly mentioned in the sentence, select the option that corresponds to the subject.
+Examples: {Alex informed us that she couldn't attend. Options: (A) Alex couldn't attend (B) We couldn't attend (C) Ambiguous}, {The chef is always instructing the assistant on new methods because she enjoys teaching. Options: (A) The chef enjoys teaching (B) The assistant enjoys teaching (C) Ambiguous}
+
+* If the subject is vague or not clear, select the option "Ambiguous".
+Examples: {Alex was unfamiliar with Taylor until he sent a letter. Options: (A) Alex sent the letter (B) Taylor sent the letter (C) Ambiguous}, {The scientist works with the artist, and she narrates a story. Options: (A) The scientist narrates a story (B) The artist narrates a story (C) Ambiguous}, {The journalist and the chef will talk about their favorite recipes. Options: (A) They will talk about the journalist's favorite recipes (B) They will talk about the chef's favorite recipes (C) Ambiguous}
+
+* If the sentence has multiple subjects, identify which subject the action pertains to.
+Examples: {The chief informed the counselor that he took a day off. Options: (A) The chief took a day off (B) The counselor took a day off (C) Ambiguous}, {The author attempted to deceive the salesperson and narrated a fictitious story. Options: (A) Narrated the author a fictitious story (B) Narrated the salesperson a fictitious story (C) Ambiguous}
+
+# Identifying the Object of the Sentence
+* If the object is explicitly mentioned in the sentence, select the option that corresponds to the object.
+Examples: {The chief expressed gratitude to the housekeeper and gave them some tips. Options: (A) Gave the chief some tips (B) Gave the housekeeper some tips (C) Ambiguous}, {The designer worked with the carpenter and provided them with a blueprint. Options: (A) Provided the designer with a blueprint (B) Provided the carpenter with a blueprint (C) Ambiguous}, {The chief expressed gratitude to the housekeeper and gave her some tips. Options: (A) Gave the chief some tips (B) Gave the housekeeper some tips (C) Ambiguous}
+
+* If the object is vague or not clear, select the option "Ambiguous".
+Examples: {The student arranged a meeting with the architect to review their blueprints. Options: (A) The blueprints belonged to the student (B) The blueprints belonged to the architect (C) Ambiguous}

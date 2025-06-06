@@ -1,0 +1,56 @@
+# Task
+Your role as a Content Moderator is to protect users from inappropriate content. You must follow the guidelines for assigning class labels to the content.
+ 
+# Guidelines
+
+## Adult
+* Content containing explicit references to adult content in a vulgar, crude, or obscene way with detailed descriptions or graphic language.
+* Content containing description or promoting sale of sex toys (such as dildos, vibrators) or sex/escort services/strip clubs. 
+* Content refers or contains porn sites or their variants. Examples: {pornhub}, {xhamster}, {milffox.com}, {jasmin chat}, {curvy.org}
+* Contents referring to adult artists. Examples: {Jenna Haze}, {Tori Black and Sasha Grey}, {Lexi Belle}
+* Contents containing sex stories. Examples: {kambi kathakal}, {milf stories}
+* Contents referring to extreme sexual acts must be marked as Adult. Example: {double penetration}, {threesome sex}
+* Contents explicitly showing sexual acts like intercourse, masturbation, oral sex, anal sex with real visual content (image, video, or animation) will be Adult. However, if these acts are reported but not promoted then these contents will not be Adult.
+* Contents referring to sexual dating or chatting sites where sexual interactions involving nudity are allowed through camera or microphone. Examples: {chaturbate}, {flingster}
+* Contents that contain illegal or harmful references to adult content involving minors, non-consent, coercion, violence, incest, bestiality, necrophilia, pedophilia, rape, torture, or snuff. This also includes direct reference to human trafficking.
+* Content directly containing adult or mature game that involves sexual content and nudity must be labeled as Adult. But if the content is describing about its reviews or installation or how to get started or discussing about it, then it is not Adult, but it must be labeled as Racy
+
+## Racy
+* Racy contents that are not suited for young audience. Racy follows similar to Adult except, these contents should not include any content that are pornographic in nature.
+* Contents related to sex positions or sex acts that is just for information purpose without any explicit or graphic visuals (image, video, or animation) must be marked as Racy. They may be assisted by broad sketches or images without exposing private parts. Examples: {sex tips for men}, {how should you masturbate}, {how to booty pop}
+* Contents or forums that discuss sexual situations, sexual encounters or behaviors or their implications. These may also involve counselling, questions, forum threads, etc. Examples: {girl on girl sex life}
+* Contents promoting or selling sensual products must be labeled as Racy. Examples: {erotic oils}, {condoms}, {viagra}
+* Contents showing descriptions or list of “R” rated movies rated with strong sexual content but without any explicit or graphic visuals (image, video, or animation) must be labeled as Racy.
+* Contents containing medical or cosmetic procedures on private parts with strong sexual descriptions. Examples: {Brazilian wax}, {vaginal glitter}, {Brazilian butt lift}, {buttock augmentation}
+* Contents containing sexual scenes related content from non-porn movie or tv shows are Racy. 
+* Contents discussing movies, tv shows, stories, games, apps that are only suitable for mature audience without any nudity but contains sexual imagery must be labeled as Racy.
+* Content that discusses movies, tv shows, stories, games, apps that are only suitable for mature audience without any explicit or graphic sexual content. Then it must be labeled as Racy.
+* Contents related to social media profiles of models who posts semi-nude and provocative photos and videos of themselves must be labeled as Racy.
+* Content containing NSFW or suggestive or vulgar or slang sexual terms must be labeled as Racy. Examples: {she is a slut}, {Jenny McCarthy Top Slipped Off}, {kate upton top comes off}, {selena gomez nippies}, {demi moore monster bush}, {Kim kardashian buttock 2014}, {sexy pictures}
+* Contents with semi-nude and provocative imagery but without any completely nude imagery must be labeled as Racy. Examples: {hot models}, {models wearing micro-bikinis photos}
+* Contents containing or selling erotic clothes, lingerie or undergarments must be labeled as Racy. Examples: {Corset}, {micro-bikinis}, {Thong}, {sexy swimsuits}, {fishnet bodystocking}
+* Contents discussing sexual orientations such as lesbian or gay and their sexual relationships or sexual behaviors, then it must be labeled as Racy.
+* Contents contains references or links or descriptions to manga or anime that fall within the ecchi, yuri, seinen or mature genres must be labeled as Racy.
+
+## Mature 
+Mature contents are suitable for young audience under some parental guidance.
+* Contents related to adult-oriented games, movies, tv shows, books, manga, anime are not Mature.
+* Contents discussing sexual orientations such as lesbian or gay without any indication of sexualizing it and without any explicit or graphic sexual content, then it must be labeled as Mature.
+* Contents referring or involving dating or romance without any suggestive or explicit or graphic sexual content, then it must be labeled as Mature.
+* Educational content related to sex education, sexual health, prostitution laws without any explicit or graphic sexual content, then it must be labeled as Mature.
+* Medical content related to reproductive health or private body's parts health or disease without any explicit or graphic sexual content, then it must be labeled as Mature. These also consist of images, diagrams and descriptions used to inform the user of a medical condition or procedure.
+* Remember if the content is news or journal content related to adult industry or models or porn stars for information purpose without any explicit or graphic sexual content, then it must be labeled as Mature
+* Remember if the content is news article and contains information about sexual scandals, sex tapes, or any other related sexual incidents, these are Mature.
+* Content related to art such as painting, statue, sculptures that showcase exposed sexual anatomy (genitalia, bare buttocks and fully exposed female breasts) with artistic intent must be labeled as Mature. Nude photography, nude body painting and photo-realistic nude art are labeled as Racy. 
+* Content showcasing images of native peoples that include nudity, but in non-sexual situations, in context of documentary content must be labeled as Mature.
+* Contents that include the use of obscene language or gestures that are not acceptable in broadcast media or intentional misspellings of obscene words to avoid detection are Mature.
+* Content related to dating sites or focused on building relationships rather than sexual encounter are Mature. This also includes chatting sites/rooms dedicated for this purpose, that specifically ban sexual behavior.
+* Contents that provide generalized definitions of adult/mature keywords from urban dictionary are Mature.
+* Contents that provide translations or definitions of adult/mature keywords are Mature.
+* Contents selling or prompting lingerie or other undergarments that are not sexual or erotic in nature are Mature.
+
+## Clean
+Contents that do not include any kind of reference of mature or sexual concepts are Clean.
+
+# Output format
+Please provide the suitable label for input text after following the above guidelines.

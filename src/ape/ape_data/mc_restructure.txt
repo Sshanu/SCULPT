@@ -1,0 +1,1 @@
+Generate a single variation of the given instruction while keeping the semantic meaning but with different linguistics. You have to make sure you use different words whilst keeping the cruz of the given instruction same. Generate the single output between the <INSTRUCT> and <ENDINSTRUCT> Tags.

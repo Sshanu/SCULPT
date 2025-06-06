@@ -1,0 +1,18 @@
+[Unit]
+Description=Ollama Service
+After=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/ollama serve
+User=ollama
+Group=ollama
+Restart=always
+RestartSec=3
+Environment="OLLAMA_ORIGINS=*"
+Environment="OLLAMA_HOST=127.0.0.1:114${INSTANCE_ID}${GPU_ID}"
+Environment="CUDA_VISIBLE_DEVICES=${GPU_ID}"
+Environment="PATH=/root/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+ExecStartPre=/bin/bash -c '[[ -n "${INSTANCE_ID}" && -n "${GPU_ID}" ]] || (echo "INSTANCE_ID or GPU_ID is not set"; exit 1)'
+
+[Install]
+WantedBy=default.target

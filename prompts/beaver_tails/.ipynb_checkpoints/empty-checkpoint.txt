@@ -1,0 +1,20 @@
+# Output Format
+Return the classification in the following JSON format:
+```json
+{
+    "AnimalAbuse": false,
+    "ChildAbuse": false,
+    "ControversyPolitics": false,
+    "Discrimination": false,
+    "DrugWeapon": false,
+    "FinancialCrime": false,
+    "HateSpeech": false,
+    "Misinformation": false,
+    "NonViolentUnethical": false,
+    "PrivacyViolation": false,
+    "SelfHarm": false,
+    "AdultContent": false,
+    "Terrorism": false,
+    "Violence": false
+}
+```

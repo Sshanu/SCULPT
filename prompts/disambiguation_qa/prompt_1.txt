@@ -1,0 +1,29 @@
+# Task
+The task is to analyze sentences and determine the referent of a given pronoun. The Language model must consider the context of the sentence to resolve pronouns to their correct referents, taking into account factors such as speaker knowledge, career/role-based context, and potential gender biases. The model should identify if the sentence is unambiguous, if the pronoun can be resolved using career or role context, or if the sentence remains ambiguous despite the context.
+
+# Low Ambiguity
+Sentences with low ambiguity are those where the pronoun's referent can be clearly identified based on the context provided.
+* No ambiguity: Pronouns can be resolved without confusion.
+Examples: {My mom called her secretary for more information.}
+* Speaker knowledge: The context implies who the pronoun refers to.
+Examples: {A asked B if he had discovered any issues.}
+* Career/role based: The pronoun's referent can be identified by their career or role.
+Examples: {The worker showed the pedestrian how they would repair the sidewalk.}
+
+# High Ambiguity
+Sentences with high ambiguity are those where the pronoun's referent cannot be clearly identified even with context.
+* Universal human traits: Pronouns referring to traits or experiences shared by all humans are ambiguous.
+Examples: {The lawyer cross-examined the witness until he became frustrated.}
+* Ambiguous pronoun usage: Sentences where the pronoun could refer to more than one antecedent.
+Examples: {The designer collaborated with the carpenter, and he shared a story.}
+
+# Answer Format
+The Language model should provide answers indicating the referent of the pronoun or state 'ambiguous' if the sentence does not provide enough context to resolve the pronoun.
+* State the correct option - (A), (B), (C) or (D) as per the question.
+* If the referent is clear, state the role or person the pronoun refers to.
+* If the referent is not clear, state 'ambiguous'.
+
+# Additional Points
+* Consider singular and plural uses of "they/them/their".
+* Avoid assumptions based on gender, nationality, race, or career unless the context provides clear evidence.
+* Treat all names as unisex and avoid assumptions based on the name itself

@@ -1,0 +1,39 @@
+# Determining Causality in Scenarios
+
+In this section, you will be given a scenario and asked to determine if a specific action caused a particular outcome. Each scenario will describe a sequence of events and ask whether a certain action was the cause of the outcome.
+
+## Examples:
+
+**Example 1:**  
+Suzy and Billy are working on a project that is very important for our nation's security. The boss tells them both:  
+"Be sure that you are here at exactly 9 am. It is absolutely essential that you arrive at that time."  
+
+Both Billy and Suzy arrive at 9 am. As it happens, there was a motion detector installed in the room where they arrived. The motion detector was set up to be triggered if more than one person appeared in the room at the same time. So the motion detector went off.  
+
+*Did Billy cause the motion detector to go off?*  
+→ **Output: no**
+
+---
+
+**Example 2:**  
+A machine is set up in such a way that it will short circuit if both the black wire and the red wire touch the battery at the same time. The machine will not short circuit if just one of these wires touches the battery. The black wire is designated as the one that is supposed to touch the battery, while the red wire is supposed to remain in some other part of the machine.  
+
+One day, the black wire and the red wire both end up touching the battery at the same time. There is a short circuit.  
+
+*Did the black wire cause the short circuit?*  
+→ **Output: no**
+
+---
+
+*Consider the sequence of events and the conditions described.*  
+*Determine if the specified action was a necessary or sufficient cause for the outcome.*
+
+---
+
+**Example 3:**  
+Drew, Kylie, Oliver, and Jen are regular customers at a small, local coffee shop. Given the selling price of the coffee and the cost of daily operation, the coffee shop will turn a profit if anyone orders coffee on a given day. Only one person ordering coffee is needed for the coffee shop to turn a profit that day.  
+
+Kylie and Oliver usually order coffee on Tuesdays. However, Drew doesn't usually order coffee on Tuesdays. This Tuesday, unexpectedly, Drew ordered coffee. The same day, Kylie ordered coffee, and Oliver also ordered coffee. Since at least one person ordered coffee on Tuesday, the coffee shop made a profit that day.  
+
+*Did Drew ordering coffee on Tuesday cause the coffee shop to make a profit that day?*  
+→ **Output: no**

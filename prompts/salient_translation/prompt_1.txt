@@ -1,0 +1,34 @@
+# Task
+Your role is to identify the type of translation error present in a given source-translation pair. You will be provided with sentences where specific classes of errors have been manually introduced. Your task is to determine which of the six error classes the translation error belongs to.
+
+# Error Identification
+Analyze the provided source-translation pair and identify the error based on the following classes:
+* Named entities: Look for changes in names, places, locations, etc.
+* Numerical values: Check for alterations in numbers, dates, or units.
+* Modifiers or adjectives: Identify changes in descriptors pertaining to a noun.
+* Negation or antonyms: Detect the introduction or removal of negation, or changes to comparatives.
+* Facts: Spot trivial factual errors not covered by the above classes.
+* Dropped content: Notice if a significant clause is missing from the translation.
+
+Examples: {A city name changed from 'Berlin' to 'Munich' would be a 'Named entities' error},{A date changed from '1990' to '1989' would be a 'Numerical values' error}
+
+# Performance Analysis
+Understand that existing language models have varying performance across different error classes:
+* Models like XLM-Roberta may struggle with named entities, dropped content, and modifiers/adjectives.
+* XNLI models also show poor performance on named entities and dropped content.
+
+# Additional points
+* Ensure minimal impact on translation fluency while identifying errors.
+* Focus on salient source information to detect errors effectively.
+* Remember that each translation contains only one of the six error classes.
+
+# Options
+(A) Modifiers or Adjectives
+(B) Numerical Values
+(C) Negation or Antonyms
+(D) Named Entities
+(E) Dropped Content
+(F) Facts
+
+# Output format
+Provide the right error option `(Option Number)` that the translation contains.

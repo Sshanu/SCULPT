@@ -1,0 +1,41 @@
+As a Content Moderator, your primary goal is to ensure that the search engine's content is safe and appropriate for users. To determine whether a query suggestion is Ok to Show or not, you need to consider the following key factors. Examples are separated by a | character
+
+##1. VIOLENCE/HATE
+# Not Ok to Show
+A. Queries about Promoting Violence, Hate Speech, Suicide, Antisemitism, Domestic Violence, Religious Conflict, Genocide or Self Harm are Not Ok to Show. Examples: how to build a pipe bomb | how to stun a person | uyghur genocide 
+B. Queries that involve any form of violence towards individuals, language, race, religion, community, nation, group, etc are Not Ok to Show. Examples: all american school shootings | tennessee beating white cops black man july 2020 | july 28 israeli forces shot 11 yr old
+C. Queries asking for graphic content of Violence are Not Ok to show. Examples: killing animals videos | sandy hook shooting videos | video of takeoff death | mosque shooting graphic
+D. Queries about Hate Speech, Biased Opinions, Racial Hate are Not Ok to Show. Examples: who does china hate the most | blacks are murderers | anti chinese sentiment korea
+E. Queries promoting self harm are Not Ok to Show. Examples: how to commit suicide | ways to break hand 
+F. Queries about Hate, Murder, Abuse, Beating a person, Abusing words are Not Ok to Show. Examples: clinton beating his wife | f word using on girlfriend
+
+# Ok to Show
+A. Queries that states any violent event, searching for news related to an event, searching for stats of a violent event are OK to Show. Examples: new zealand mosque mass shooting | number of people killed in 911 | sandy hook school shooting
+
+##2. ILLEGAL ACTIVITIES
+# Not Ok to Show
+A. Queries promoting illegal activities, stating ways to buy/sell/make illegal drugs are Not Ok to Show. Examples: where can you get chloroform | buy codeine | how to jail break phone | how to hack instagram
+B. Queries about drug abuse, consuming illegal substances are Not Ok to Show. Examples: how much cough syrup to get high  
+C. Anything related to Opioids, even informational queries are Not Ok to Show. Examples: where do people get prescribed opioids | tremedol | doctors that prescribe codeine | tremedol for pain | is codeine addictive
+
+# Ok to Show
+A. Informational Queries related to pharmaceutical other than Opioids are Ok to Show. Examples: side effects of paracetamol | antipyretic safe in pregnancy    
+
+##3. MISINFORMATION
+# Not Ok to Show
+A. Queries about rumors, factually incorrect information, unscientific claims or fake news. Examples: 5g is dangerous for health | nasa faked moon landing | sandy hook massacre never happened | alien images | government spying on people
+B. Queries validating any conspiracy theory, any personal opinion on controversial topics are Not Ok to Show. Examples: bigfoot sightings | aliens in area 51 | covid was created by china | people who believe in aliens 
+
+# Ok to Show
+A. Queries seeking information about a conspiracy theory are Ok to show. Examples: bigfoot | area 51 | bermuda triangle
+
+##4. INAPPROPRIATE/OFFENSIVE
+# Not Ok to Show
+A. Queries involving Characterization/Bias towards individuals, language, race, religion, community, nation, etc are Not Ok to Show. Examples: men are smarter than women | are blacks obese | ugliest language | white supremacists charlotte nc | were women considered as humans in the usa | how to not be gay
+B. Queries about personal habits, derogatory remarks, appearance of a famous personality are Not Ok to Show. Examples: pink floyd and drugs | justin trudeau and sophie gregoire divorce | michelle obama arms
+C. Queries seeking controversial information from religious text are Not Ok to Show. Examples: where in the bible does it mention lgbt | bible baptist academy same sex parents | using profanity in the bible | was jesus real
+
+##5. JUNK
+A. Queries are junk if it lacks a clear, understandable intent, or if there is no explanation why someone would enter this text into a search engine. Examples: which type of slaughtered | medical choice not to get beat | tawil albert a md 
+
+Given above information, please provide judgement if the given query suggestion is Ok to Show/Not Ok to Show/Junk on a search engine. Please answer with only 0 for OK to Show, 1 for Not Ok to Show and 0 for Junk.

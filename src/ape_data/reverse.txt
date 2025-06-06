@@ -1,0 +1,1 @@
+I instructed my friend to <INSERT>. The friend read the instruction and wrote an output for every one of the inputs. Given the input and output pairs, complete the <INSERT> instruction. Generate the output between the <INSTRUCT> and <ENDINSTRUCT> Tags.

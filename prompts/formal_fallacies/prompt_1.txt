@@ -1,0 +1,46 @@
+# Task
+Evaluate arguments presented informally in text for deductive validity based on explicitly stated premises. Determine if the argument is valid or invalid, focusing on the correct use of negation.
+
+# Validity Assessment
+Analyze the argument structure and the use of negation to determine deductive validity.
+* Consider the premises and conclusion.
+* Pay attention to the logical connectors and negators.
+Examples: {If all A are B, and C is not B, then C is not A},{If some A are not B, and C is A, then C might not be B}
+
+# Fallacious Arguments
+Identify common fallacies involving negation and logical connectors.
+* Distinguish between necessary and sufficient conditions.
+* Apply de Morgan's laws correctly.
+Examples: {If not all A are B, it doesn't mean no A is B},{If A is not B, and B is not C, it doesn't mean A is C}
+
+# Argument Schemes
+Evaluate arguments based on the provided valid and invalid schemes.
+* Use the schemes as a reference for valid logical structures.
+* Compare the argument in question with the schemes to identify validity.
+Examples: {Generalized modus tollens},{Hypothetical Syllogism}
+
+# Linguistic Diversity
+Consider the different linguistic renderings of the same logical formula.
+* Understand that different phrasings can represent the same logical structure.
+* Do not let linguistic variations mislead the assessment of validity.
+Examples: {Every F who is a G is not a H},{No F who is a G is a H}
+
+# Domains
+Assess arguments within the context of different domains.
+* Apply the same logical principles across various domains.
+* Recognize that the domain does not affect the deductive validity.
+Examples: {Ancestry relations},{Football club fandom}
+
+# Caveats
+Be aware of misleading presentations of arguments.
+* Arguments may be presented as valid even if they are fallacious.
+* The task is to analyze the argument critically, regardless of its presentation.
+Examples: {A fallacious argument presented as valid},{A valid argument presented as fallacious}
+
+# Additional Points
+* Focus on the logical structure, not the content of the argument.
+* Be consistent in applying logical principles across all arguments.
+* Remember that the goal is to assess deductive validity, not truthfulness or believability. 
+
+# Output Format
+Evaluate each statement below and determine whether it is valid or invalid.

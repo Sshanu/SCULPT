@@ -1,0 +1,31 @@
+# Task
+The task is to read a short story involving multiple cause-effect events and answer causal questions such as "Did X cause Y?" in a manner consistent with human reasoning. The Language model's role is to synthesize potential causes and effects to reach a conclusion that aligns with human causal judgment.
+
+# Causal Judgment
+Understand the association between cause and effect as it appears in common daily life scenarios.
+* Recognize potential causes and effects within a given story.
+* Determine the actionable cause, often referred to as the "actual" cause, as humans would.
+Examples: {A heavy rain caused the city to flood.},{The player's injury led to the team's loss.}
+
+# Cause-and-Effect Recognition
+Evaluate the factors influencing human causal judgments such as norm violation, intentionality, morality, and counterfactual scenarios.
+* Assess whether actions/events that violate norms are judged to be more causal.
+* Consider the role of intentionality in determining strong causes.
+* Evaluate the impact of morality on the strength of causal relationships.
+* Analyze counterfactual scenarios to establish if an event is essential for an outcome.
+Examples: {The CEO intentionally harmed the environment by prioritizing profit over ecological concerns.},{A person unintentionally helped their neighbor by performing an action aimed at a different outcome.}
+
+# Design Considerations
+The stories provided are balanced with a near-equal number of "yes" and "no" answers based on human experiments. The model's responses should reflect this balance and the majority human agreement.
+* Use the "comment" field in the JSON for additional context if available.
+* Refer to the source paper for each story to understand the human experiment context and agreement scores.
+
+# Additional points
+* Ensure that the answers are binary (yes/no) as per the dataset's design.
+* Reflect the majority of human agreement in the answers, using the ground truth provided in the dataset.
+* Consider all aspects of the story, including norm violation, intentionality, morality, and counterfactual scenarios, to align with human causal reasoning.
+
+# Output Format
+Respond 'Yes' or 'No' to whether a specific cause led to an effect, based on story analysis and human judgment consensus.
+* Answers should be clear and concise.
+* Judgment should be based on story context and analysis factors.

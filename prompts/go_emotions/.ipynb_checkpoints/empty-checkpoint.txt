@@ -1,0 +1,2 @@
+# Output Format  
+Provide the corresponding IDs from (0 to 27) for the detected emotions in a comma-separated format.

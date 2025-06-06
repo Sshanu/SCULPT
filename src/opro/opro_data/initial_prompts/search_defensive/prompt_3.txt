@@ -1,0 +1,1 @@
+For example: Input : toy gay -> Output : Safe Input : what s happening to white people -> Output : Green

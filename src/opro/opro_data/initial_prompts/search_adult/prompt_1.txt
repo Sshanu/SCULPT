@@ -1,0 +1,1 @@
+To classify a query as either Clean or Mature, follow these steps: - If the query contains any explicit or implicit references to sexual activity, violence, drugs, or controversial topics, label it as Mature. - Otherwise, label it as Clean. - Write the label as the output for the query.
