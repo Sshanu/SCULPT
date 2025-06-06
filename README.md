@@ -4,38 +4,41 @@ This repository contains the code for SCULPT: Systematic Tuning of Long Prompts.
 
 ## Running the Methods
 
-To run the different methods included in this repository, use the provided shell scripts:
+To set up the project and run the different methods included in this repository, follow these steps:
 
-*   To run the SCULPT method:
+1.  Install the required dependencies using the `requirements.txt` file:
     ```bash
-    ./run_sculpt.sh
-    ```
-*   To run the Protegi method:
-    ```bash
-    ./run_protegi.sh
-    ```
-*   To run the OPRO method:
-    ```bash
-    ./run_opro.sh
-    ```
-*   To run the APEX method:
-    ```bash
-    ./run_apex.sh
-    ```
-*   To run the APE method:
-    ```bash
-    ./run_ape.sh
-    ```
-*   To run the LongAPE method:
-    ```bash
-    ./run_longape.sh
+    pip install -r requirements.txt
     ```
 
-Please ensure you have the necessary dependencies installed. You may need to install the `openai` library if you haven't already:
+2.  Run the desired method using the provided shell scripts and specify the task name as an argument:
 
-```bash
-pip install openai
-```
+    *   To run the SCULPT method:
+        ```bash
+        ./run_sculpt.sh <task_name>
+        ```
+    *   To run the Protegi method:
+        ```bash
+        ./run_protegi.sh <task_name>
+        ```
+    *   To run the OPRO method:
+        ```bash
+        ./run_opro.sh <task_name>
+        ```
+    *   To run the APEX method:
+        ```bash
+        ./run_apex.sh <task_name>
+        ```
+    *   To run the APE method:
+        ```bash
+        ./run_ape.sh <task_name>
+        ```
+    *   To run the LongAPE method:
+        ```bash
+        ./run_longape.sh <task_name>
+        ```
+
+    Replace `<task_name>` with the desired task (e.g., `formal_fallacies`, `causal_judgment`, `disambiguation_qa`, `salient_translation`, `go_emotions`, `beaver_tails`).
 
 ## Citation
 

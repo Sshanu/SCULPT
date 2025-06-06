@@ -1,0 +1,11 @@
+numpy
+tqdm
+dirtyjson
+requests
+pandas
+matplotlib
+urllib3
+openai
+scikit-learn
+sentence-transformers
+torch
